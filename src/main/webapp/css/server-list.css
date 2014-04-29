@@ -1,0 +1,74 @@
+.server-list {
+    position: relative;
+    background-color: #ffffff;
+    margin: 10% auto 0;
+    padding: 20px;
+    box-shadow: 5px 5px 15px 1px rgba(0, 0, 0, 0.1);
+    border: 1px solid #000000;
+    border-collapse: collapse;
+}
+
+.server-list-header {
+    width:460px;
+    color: #ffffff;
+    padding: 8px;
+    background: #57798f;
+    border: 1px solid #000000;
+
+}
+
+.info {
+    border: 1px solid #000000;
+    padding: 6px;
+}
+
+.info-name, .info-description {
+    max-width: 420px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.info-description {
+    font-size: 11px;
+}
+
+.status-online, .status-offline {
+    border: 1px solid #000000;
+    width: 60px;
+    text-align: center;
+}
+
+.status-online {
+    background: green;
+    color: #ffffff;
+}
+
+.status-offline {
+    background: red;
+    color: #000000;
+}
+
+.buttons {
+    width: 60px;
+    padding: 0;
+    border: 1px solid #000000;
+}
+
+.edit-button, .join-button, .join-button-inactive {
+    padding: 0;
+    border: none;
+    margin: 0;
+    width: 60px;
+    height: 42px;
+}
+
+.join-button-inactive{
+   background: grey;
+   color: darkslategrey;
+}
+
+.join-button-inactive:hover{
+    background: grey;
+    color: darkslategrey;
+}

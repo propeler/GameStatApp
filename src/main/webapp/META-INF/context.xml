@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+    <Resource name="jdbc/GameStat"
+              auth="Container"
+              type="javax.sql.DataSource"
+              username="propeler"
+              password="propeler"
+              driverClassName="org.postgresql.Driver"
+              url="jdbc:postgresql://localhost:4321/gamestat"
+              maxActive="20"
+              maxIdle="10"
+              validationQuery="select 1"
+            />
+</Context>
